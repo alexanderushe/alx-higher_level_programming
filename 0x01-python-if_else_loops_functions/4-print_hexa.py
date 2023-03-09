@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-# 4-print_hexa.py
+#!/usr/bin/pyth3
 # farai
 
 """Print numbers 0 to 98 in decimal and hexadecimal"""
