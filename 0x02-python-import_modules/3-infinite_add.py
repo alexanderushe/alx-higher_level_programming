@@ -1,14 +1,16 @@
 #!/usr/bin/python3
 import sys
 
-def add_arguments(arguments):
-    result = 0
-    for arg in arguments:
+if __name__ != "__main__":
+    exit()
+
+argc = len(sys.argv) - 1
+
+i = 0
+result = 0
+for arg in sys.argv:
+    if i != 0:
         result += int(arg)
-    return result
-
-if __name__ == '__main__':
-    arguments = sys.argv[1:]
-    total = add_arguments(arguments)
-    print(total)
-
+    else:
+        i += 1
+print("{:d}".format(result))
