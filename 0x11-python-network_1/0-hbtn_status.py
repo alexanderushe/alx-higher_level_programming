@@ -4,12 +4,7 @@
 - uses urlib package
 """
 
-<<<<<<< HEAD
-if __name__ == "__main__":
-=======
-
-if __name__ == '__main__':
->>>>>>> ff778efabf190b237de7701c62196b74fd889d0e
+if __name__ == "__main_":
     import urllib.request
 
     with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
