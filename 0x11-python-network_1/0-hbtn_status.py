@@ -4,7 +4,8 @@
 - uses urlib package
 """
 
-if __name__ == "__main_":
+
+if __name__ == '__main__':
     import urllib.request
 
     with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
